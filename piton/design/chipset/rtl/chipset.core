@@ -8,6 +8,7 @@ filesets:
             - blinker.v
             - chipset.v
             - test_end_checker.v
+            - msg_buffer.v
             - ../common/rtl/noc_bidir_afifo.v
         depend:
             - openpiton::piton_chipset_include
